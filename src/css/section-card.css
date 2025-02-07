@@ -2,7 +2,6 @@
     height: 80vh;
 }
 .container{
-    background-color: red;
     border-radius: 10px;
     width: 70%;
     height: 300px;
@@ -13,7 +12,7 @@
 .container h1, .container p{
     text-align: center;
     font-weight: bold;
-    color: #F1BDC4;
+    color: #ffffff;
 }
 .container h1{
     padding-top: 10px;
@@ -31,7 +30,7 @@
     margin: 0 10px;
 }
 span a{
-    color: #000;
+    color: #fff;
     border: 1px solid transparent;
     border-radius: 50%;
     padding: 10px;
