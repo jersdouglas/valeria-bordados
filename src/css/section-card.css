@@ -1,0 +1,46 @@
+.card{
+    height: 80vh;
+}
+.container{
+    background-color: red;
+    border-radius: 10px;
+    width: 70%;
+    height: 300px;
+    margin: 280px auto 10px auto;
+    background: url(../img/borboleta.png) right no-repeat rgb(162, 119, 126);
+    box-shadow: rgb(162, 119, 126, 0.521) 0px 2px 4px, rgb(162, 119, 126, 0.521) 0px 7px 13px -3px, rgba(162, 119, 126, 0.521) 0px -3px 0px inset;
+}
+.container h1, .container p{
+    text-align: center;
+    font-weight: bold;
+    color: #F1BDC4;
+}
+.container h1{
+    padding-top: 10px;
+}
+.container p{
+    padding-top: 20px;
+}
+.container .redes{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+.redes span{
+    font-size: 40px;
+    margin: 0 10px;
+}
+span a{
+    color: #000;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+span a:hover{
+    color: #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+}

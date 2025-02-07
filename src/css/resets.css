@@ -5,8 +5,7 @@
     font-family: sans-serif;
 }
 body{
-    background: url(../img/borboleta.png) 35% -5% repeat-x;
-    background-color: rgb(206, 255, 255);
+    background-color: rgb(230, 248, 248);
 }
 ul{
     list-style-type: none;
@@ -14,4 +13,14 @@ ul{
 a{
     text-decoration: none;
     text-transform: uppercase;
+}
+.monsieur {
+    font-family: "Monsieur La Doulaise", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.line{
+    border-bottom: 2px solid #000;
+    margin: 2% auto;
+    width: 50%;
 }
